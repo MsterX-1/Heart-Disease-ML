@@ -1,0 +1,22 @@
+{
+  "LogisticRegression": {
+    "accuracy": 0.5901639344262295,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.78      0.88      0.83        33\n           1       0.33      0.27      0.30        11\n           2       0.17      0.14      0.15         7\n           3       0.43      0.43      0.43         7\n           4       0.00      0.00      0.00         3\n\n    accuracy                           0.59        61\n   macro avg       0.34      0.34      0.34        61\nweighted avg       0.55      0.59      0.57        61\n",
+    "auc": 0.8056484052346121
+  },
+  "DecisionTree": {
+    "accuracy": 0.45901639344262296,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.74      0.76      0.75        33\n           1       0.17      0.27      0.21        11\n           2       0.00      0.00      0.00         7\n           3       0.00      0.00      0.00         7\n           4       0.00      0.00      0.00         3\n\n    accuracy                           0.46        61\n   macro avg       0.18      0.21      0.19        61\nweighted avg       0.43      0.46      0.44        61\n",
+    "auc": 0.5242207792207793
+  },
+  "RandomForest": {
+    "accuracy": 0.5081967213114754,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.77      0.91      0.83        33\n           1       0.10      0.09      0.10        11\n           2       0.00      0.00      0.00         7\n           3       0.00      0.00      0.00         7\n           4       0.00      0.00      0.00         3\n\n    accuracy                           0.51        61\n   macro avg       0.17      0.20      0.19        61\nweighted avg       0.43      0.51      0.47        61\n",
+    "auc": 0.7708087940156906
+  },
+  "SVM": {
+    "accuracy": 0.5737704918032787,
+    "report": "              precision    recall  f1-score   support\n\n           0       0.74      0.94      0.83        33\n           1       0.15      0.18      0.17        11\n           2       0.25      0.14      0.18         7\n           3       0.50      0.14      0.22         7\n           4       0.00      0.00      0.00         3\n\n    accuracy                           0.57        61\n   macro avg       0.33      0.28      0.28        61\nweighted avg       0.51      0.57      0.52        61\n",
+    "auc": 0.7957290474531854
+  }
+}
